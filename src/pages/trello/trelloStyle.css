@@ -1,0 +1,19 @@
+.card-container {
+    width: 300px;
+    padding:0;
+    border-radius:3px;
+    background-color: #ccc;
+    
+}
+
+.card-cont {
+    margin-bottom: 9px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.cont-container {
+    margin-right: 8px!important;
+}

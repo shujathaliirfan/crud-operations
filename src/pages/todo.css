@@ -1,0 +1,106 @@
+.project-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem .5rem;
+    color: #495057;
+   
+}
+
+.dashboard {
+    padding: 1rem;
+    height: calc(100vh - 50px);
+    background: #f3f0ff;
+}
+
+
+.project-board {
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 272px;
+    grid-auto-flow: column;
+    grid-gap: 8px;
+    overflow-y: scroll;
+}
+
+.project-board-card {
+    background: #e5dbff;
+    border-radius: 8px;
+    margin: 0 .5rem;
+    display: grid;
+    grid-auto-rows: -webkit-max-content;
+    grid-auto-rows: max-content;
+}
+
+.add-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+    border-radius: 8px;
+    padding:10px;
+}
+
+img.icon-sm {
+    width: 16px;
+}
+.add-new > img {
+    padding: .25rem;
+}
+
+.add-new:hover {
+    background-color: rgba(9,30,66,.08);
+    color: #172b4d;
+    cursor: pointer;
+}
+
+.project-board-card-add-new {
+    padding: .5rem;
+        margin: .25rem 0;
+}
+
+input, textarea {
+    border-radius: 8px;
+    border: 2px solid #f1f3f5;
+    width: 100%;
+    padding: .25rem .5rem;
+}
+.project-board-card-add-new{
+    margin: .25rem 0;
+}
+
+.project-board-card {
+    background: #e5dbff;
+    border-radius: 8px;
+    margin: 0 .5rem;
+    display: grid;
+    grid-auto-rows: -webkit-max-content;
+    grid-auto-rows: max-content;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 0.65rem .9rem;
+    margin: 0;
+    text-decoration: none;
+    background: #5f3dc4;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: background .25s ease-in-out,-webkit-transform .15s ease;
+    transition: background .25s ease-in-out,-webkit-transform .15s ease;
+    transition: background .25s ease-in-out,transform .15s ease;
+    transition: background .25s ease-in-out,transform .15s ease,-webkit-transform .15s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 8px;
+}
+input:focus,
+input:focus-visible{
+    
+   border-color: #5f3dc4!important;
+   outline: none;;
+}
